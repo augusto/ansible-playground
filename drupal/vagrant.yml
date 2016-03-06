@@ -1,0 +1,8 @@
+---
+- hosts: all
+  sudo: no
+  tasks:
+  - name: Say Hello
+    command: echo "Hello, world!"
+    changed_when: false
+
